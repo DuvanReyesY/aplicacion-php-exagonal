@@ -1,0 +1,14 @@
+{
+    "name": "mi-app/aplication-php",
+    "description": "Aplicación PHP hexagonal para gestión de usuarios.",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Infrastructure\\": "Infrastructure/"
+        }
+    }
+}
